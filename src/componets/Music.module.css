@@ -1,0 +1,144 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 10px;
+}
+
+.childParent {
+  box-shadow: 2px 2px 13px 12px gray;
+  width: 45%;
+  height: 87%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.input {
+  height: 40px;
+  width: 50%;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parent h1 {
+  font-size: 40px;
+  position:absolute;
+  top: 2em;
+  color:red;
+}
+
+img {
+  width:100%;
+  height:70%;
+  border-radius: 20px;
+  
+}
+
+.wrapBtn{
+display: flex;
+gap: 10px;
+}
+
+.options{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.options button{
+  width: 45px;
+  height: 90%;
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: red;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  gap: 15px;
+}
+
+.btns button {
+  width: 100px;
+  height: 90%;
+  background-color: blueviolet;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.details{
+  display: flex;
+}
+.details span{
+  color: rgb(48, 46, 46);
+  font-family: cursive;
+  font-size: 14px;
+}
+
+/* General styles for the container */
+.input {
+}
+
+.input span {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.input input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s;
+}
+
+.input input[type="range"]:hover {
+  background: #ccc;
+}
+
+.input input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.input input[type="range"]::-webkit-slider-thumb:hover {
+  background: #0056b3;
+}
+
+.input input[type="range"]::-moz-range-thumb:hover {
+  background: #0056b3;
+}
